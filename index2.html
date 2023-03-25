@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <body class="text-center" >
+    <table class="m-auto border-2 border-black ">
+      <caption></caption>
+
+      <thead class="px-5">
+        <th class="px-5" >Index</th>
+        <th class="px-5" >ID </th>
+        <th class="px-5">Name</th>
+        <th class="px-5">City</th>
+        <th class="px-5">DOJ</th>
+ 
+      </thead>
+
+      <tbody id="show">
+
+      </tbody>
+    </table>
+
+
+    <input type="number" placeholder="Enter id" class= "border-sky-200 border-2 mt-5" id="search">
+    <button  class="rounded border-4" id="btn" onclick="search1()" >Search By id</button>
+   <table class="m-auto" id="out">
+      <caption></caption>
+<th></th>
+   </table>
+
+
+
+   <input class= "border-sky-200 border-2 mt-5" type="number" placeholder="Enter index"  id="search1">
+   <button class="rounded border-4" id="btn" onclick="search2()" >Search By index</button>
+  <table class="m-auto" id="out1">
+    <caption></caption>
+    <th id="nu"></th>
+
+  </table>
+  Year <input class= "border-sky-200 border-2 mt-5" type="number" id="Index" required><br>
+  <button class="rounded border-4 mt-5" onclick="search3()">Search</button>
+<table class="m-auto" >
+  <caption></caption>
+
+  <thead id =show4>
+    <th></th>
+  </thead>
+</table>
+  </body>
+  <script  src="/src/main.js"></script>
+</html>
+ 
